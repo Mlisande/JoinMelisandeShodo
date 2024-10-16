@@ -14,9 +14,9 @@ const theme = createTheme({
         }
     },
     typography : {
-        fontFamily: `'Bluu Next', 'Inter', sans-serif'`,
+        fontFamily: `'var(--font-bluu-next)', 'var(--font-inter-regular)'`,
         h1: {
-            fontFamily:'Blue Next, sans-serif',
+            fontFamily:'var(--font-bluu-next), sans-serif',
             fontSize: '138px',
             fontWeight: '500',
             lineHeight : '151.8px',
@@ -24,22 +24,45 @@ const theme = createTheme({
 
         },
         h2: { // titres moyens
-            fontFamily: 'Blue Next, sans-serif',
+            fontFamily: 'var(--font-bluu-next), sans-serif',
             fontSize: '68px',
             fontWeight: '400',
             lineHeight: '75px',
         },
         h3: { // titres plus petits
-            fontFamily: 'Bluu Next, sans-serif',
+            fontFamily: 'var(--font-bluu-next), sans-serif',
             fontSize: '16px',
             fontWeight: 700,
             lineHeight: '23.2px',
         },
         body1 : { // texte
-            fontFamily: 'Inter, sans-serif',
+            fontFamily: 'var(--font-inter-regular), sans-serif',
             fontSize: '17px',
             fontWeight: 400,
             lineHeight: '25.5px',
+        }
+    },
+    components: {
+        MuiCssBaseline: {
+            styleOverrides: {
+                body: {
+                    maxWidth: '100vw',
+                    overflowX: 'hidden',
+                    backgroundColor: 'pink',
+                    fontFamily: 'var(--font-inter), sans-serif',
+                    WebkitFontSmoothing: 'antialiased',
+                    MozOsxFontSmoothing: 'grayscale',
+                },
+                '*': {
+                    boxSizing: 'border-box',
+                    padding: 0,
+                    margin: 0,
+                },
+                  a: {
+                    color: 'inherit',
+                    textDecoration: 'none',
+                },
+            }
         }
     }
 
