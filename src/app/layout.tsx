@@ -2,6 +2,7 @@
 import localFont from "next/font/local";
 import { ThemeProvider, CssBaseline } from "@mui/material";
 import theme from './styles/theme';
+import Header from "./components/Header";
 //import "./globals.css";
 
 // j'importe les fonts locales avec localFont 
@@ -23,10 +24,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${bluuNext.variable} ${inter.variable}`}>
+      <body 
+      className={`${bluuNext.variable} ${inter.variable}`}
+      style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
         <ThemeProvider theme={theme}>
           <CssBaseline/>
-          {children}
+          <Header/>
+          <main style={{ flex: '1' }}>{children}</main>
         </ThemeProvider>
       </body>
     </html>
