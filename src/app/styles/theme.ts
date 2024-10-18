@@ -20,7 +20,7 @@ const theme = createTheme({
             fontSize: '138px',
             fontWeight: '500',
             lineHeight : '151.8px',
-            color : 'the',
+            color : 'white',
 
         },
         h2: { // titres moyens
@@ -40,6 +40,7 @@ const theme = createTheme({
             fontSize: '17px',
             fontWeight: 400,
             lineHeight: '25.5px',
+            color: 'white'
         }
     },
     components: {
@@ -48,7 +49,7 @@ const theme = createTheme({
                 body: {
                     maxWidth: '100vw',
                     overflowX: 'hidden',
-                    backgroundColor: 'pink',
+                    backgroundColor: '#0b0b0b',
                     fontFamily: 'var(--font-inter), sans-serif',
                     WebkitFontSmoothing: 'antialiased',
                     MozOsxFontSmoothing: 'grayscale',
