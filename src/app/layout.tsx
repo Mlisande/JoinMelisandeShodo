@@ -11,6 +11,13 @@ const bluuNext = localFont({
   variable: "--font-bluu-next",
   weight: "400 700",
 });
+
+const bluuNextIt = localFont({
+  src : "./fonts/BluuNext-Bolditalic.otf",
+  variable: "--font-bluu-italic",
+  weight: "400 600"
+}); 
+
 const inter = localFont({
   src: "./fonts/Inter-Regular.ttf",
   variable: "--font-inter-regular",
@@ -25,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body 
-      className={`${bluuNext.variable} ${inter.variable}`}
+      className={`${bluuNext.variable} ${inter.variable} ${bluuNextIt.variable}`}
       style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
         <ThemeProvider theme={theme}>
           <CssBaseline/>
