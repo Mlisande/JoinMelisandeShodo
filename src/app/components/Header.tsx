@@ -14,9 +14,9 @@ const Header:React.FC = () => {
                     width={82}
                     height={90}/>
                     <Box component="section" sx={{marginLeft:"26px"}}>
-                        <Typography variant="h3" sx={{lineHeight:"16px"}}>CRAFTING</Typography>
-                        <Typography variant="h3" sx={{lineHeight:"16px"}}>SUSTAINABLE</Typography>
-                        <Typography variant="h3" sx={{lineHeight:"16px"}}>CODE WE CODE</Typography>
+                        <Typography variant="h3" >CRAFTING</Typography>
+                        <Typography variant="h3" >SUSTAINABLE</Typography>
+                        <Typography variant="h3" sx={{ marginBottom:'.1rem'}}>CODE WE CODE</Typography>
                     </Box>
                     <Stack direction="row" spacing="2rem" marginLeft="auto">
                         <Button color="inherit" sx={{typography:"body1", textTransform:"none"}} > A propos </Button>

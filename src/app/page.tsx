@@ -1,11 +1,11 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-import { Container, Typography } from "@mui/material";
+import { Container } from "@mui/material";
+import HeroTitle from "./components/HeroTitle";
+
 
 export default function Home() {
   return (
     <Container>
-      <Typography variant="h1">Vous avez le choix</Typography>
+      <HeroTitle/>
     </Container>
     // <div className={styles.page}>
     //   <main className={styles.main}>

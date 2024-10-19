@@ -23,6 +23,14 @@ const theme = createTheme({
             color : 'white',
 
         },
+        h4: {
+            fontFamily: 'var(--font-bluu-italic), sans-serif',
+            fontSize: '138px',
+            fontWeight: '500',
+            lineHeight: '151.8px',
+            fontStyle: 'italic',
+            color: 'white',
+        },
         h2: { // titres moyens
             fontFamily: 'var(--font-bluu-next), sans-serif',
             fontSize: '68px',
