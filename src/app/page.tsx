@@ -1,11 +1,13 @@
 import { Container } from "@mui/material";
 import HeroTitle from "./components/HeroTitle";
+import IntroSection from "./components/Intro";
 
 
 export default function Home() {
   return (
     <Container>
       <HeroTitle/>
+      <IntroSection/>
     </Container>
     // <div className={styles.page}>
     //   <main className={styles.main}>
