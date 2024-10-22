@@ -2,6 +2,7 @@ import React from "react";
 import { AppBar, Box, Button, Stack, Toolbar, Typography } from "@mui/material";
 import Image from "next/image";
 import shodoLogo from "../images/shodo_logo.webp"
+import Link from "next/link";
 
 const Header:React.FC = () => {
     return(
@@ -19,9 +20,9 @@ const Header:React.FC = () => {
                         <Typography variant="h3" sx={{ marginBottom:'.1rem'}}>CODE WE CODE</Typography>
                     </Box>
                     <Stack direction="row" spacing="2rem" marginLeft="auto">
-                        <Button color="inherit" sx={{typography:"body1", textTransform:"none"}} > A propos </Button>
-                        <Button color="inherit" sx={{typography:"body1", textTransform:"none"}}> Services </Button>
-                        <Button color="inherit" sx={{typography:"body1", textTransform:"none"}}> Contacts </Button>
+                        <Button color="inherit" sx={{typography:"body1", textTransform:"none"}} component={Link} href="#about" > A propos </Button>
+                        <Button color="inherit" sx={{typography:"body1", textTransform:"none"}} component={Link} href="#services"> Services </Button>
+                        <Button color="inherit" sx={{typography:"body1", textTransform:"none"}} component={Link} href="#contact"> Contacts </Button>
                     </Stack>
                 </Toolbar>
             </AppBar>

@@ -22,7 +22,7 @@ const HeroTitle : React.FC = () =>{
                     </Grid2>
                 </Grid2>
                 <Grid2>
-                    <Typography variant="body1" marginLeft="-10rem"> ... de faire le bon choix</Typography>
+                    <Typography variant="body1" marginLeft="-10rem"> ... de faire le bon choix, donc recrutez-moi !</Typography>
                 </Grid2>
             </Grid2>
         </Container>
