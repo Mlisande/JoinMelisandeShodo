@@ -4,7 +4,7 @@ import { Container, Grid2, Typography } from "@mui/material";
 const IntroSection : React.FC = () => {
     return(
         <Container component="section" maxWidth="lg" sx={{ marginTop: "5rem"}}>
-            <Grid2 container justifyContent="space-evenly" alignContent="center" textAlign="justify">
+            <Grid2 container justifyContent="center" >
                 <Grid2 size={5}>
                     <Typography>
                     Comme Shodo, je crois que choisir, c'est s'engager, et que les individus comme les entreprises ont le pouvoir d’agir, à travers leurs choix de consommation, d'employeur·euse, de partenaire ou de prestataire, en faveur de rapports humains plus justes.
