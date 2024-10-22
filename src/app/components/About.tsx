@@ -1,5 +1,4 @@
 import { Box, Button, Container, Grid2, LinearProgress, Stack, Typography } from "@mui/material";
-import Link from "next/link";
 import React from "react";
 
 const About: React.FC = () => {
