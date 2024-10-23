@@ -1,5 +1,4 @@
 import { Box, Button, Container, Grid2, LinearProgress, Stack, Typography } from "@mui/material";
-import Link from "next/link";
 import React from "react";
 
 const About: React.FC = () => {
@@ -7,7 +6,7 @@ const About: React.FC = () => {
         <Container component="section" maxWidth="lg" sx={{ marginTop: "5rem"}}>
             <Typography variant="h3" id="about" textAlign="center" sx={{color:"secondary.main"}}> A PROPOS </Typography>
             <Typography variant="h2" textAlign="center"> En quelques mots ...</Typography>
-            <Grid2 container justifyContent="space-evenly" marginTop="4rem">
+            <Grid2 container justifyContent="space-evenly" marginTop="4rem" spacing={2}>
                 <Grid2 size={5}>
                     <Typography variant="h3" marginBottom="1rem"> PROFIL </Typography>
                     <Typography>
