@@ -21,6 +21,7 @@ const Header:React.FC = () => {
                     </Box>
                     <Stack direction="row" spacing="2rem" marginLeft="auto">
                         <Button color="inherit" sx={{typography:"body1", textTransform:"none"}} component={Link} href="#about" > A propos </Button>
+                        <Button color="inherit" sx={{typography:"body1", textTransform:"none"}} component={Link} href="#whyshodo"> Pourquoi Shodo </Button>
                         <Button color="inherit" sx={{typography:"body1", textTransform:"none"}} component={Link} href="#services"> Services </Button>
                         <Button color="inherit" sx={{typography:"body1", textTransform:"none"}} component={Link} href="#contact"> Contacts </Button>
                     </Stack>

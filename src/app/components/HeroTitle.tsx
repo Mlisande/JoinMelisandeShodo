@@ -13,7 +13,7 @@ const HeroTitle : React.FC = () =>{
                 <Grid2>
                     <Grid2 container direction="row" alignItems="baseline"  spacing={4} marginLeft="5rem">
                         <Grid2>
-                            <Image src={PillMorpheus} alt="Morpheus Pills"width={304} height={180}/>
+                            <Image src={PillMorpheus} alt="Morpheus Pills" width={304} height={180}/>
                          </Grid2>
                         <Grid2 sx={{alignSelf: 'flex-start'}} >
                             <Typography variant="h1" marginRight="1rem" sx={{ display:"inline-block", transform:'skew(-20deg)', alignSelf: 'flex-start'}}> le </Typography>
