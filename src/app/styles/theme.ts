@@ -49,6 +49,13 @@ const theme = createTheme({
             fontWeight: 400,
             lineHeight: '25.5px',
             color: 'white'
+        },
+        body2 : {
+            fontFamily: 'var(--font-inter-regular), sans-serif',
+            fontSize: '14px',
+            fontWeight: 300,
+            lineHeight: '25.5px',
+            color: 'white'
         }
     },
     components: {
