@@ -4,6 +4,7 @@ import IntroSection from "./components/Intro";
 import About from "./components/About";
 import Services from "./components/Services";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <About/>
       <Services/>
       <Contact/>
+      <Footer/>
     </Container>
     // <div className={styles.page}>
     //   <main className={styles.main}>

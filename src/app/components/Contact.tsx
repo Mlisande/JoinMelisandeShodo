@@ -4,7 +4,6 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import FavoriteIcon from '@mui/icons-material/Favorite';
 
 interface ContactLink {
     icon: React.ReactNode;
@@ -59,7 +58,6 @@ const Contact: React.FC = () => {
                     </IconButton>
                 ))}
             </Stack>
-            <Typography variant="body2" textAlign="center" marginTop="5rem"> Fait avec le <FavoriteIcon sx={{color:"red", fontSize:"1rem"}}/> par &copy; Mélisande MALONGA  </Typography>
         </Container>
     )
 }
