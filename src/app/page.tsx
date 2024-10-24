@@ -5,6 +5,7 @@ import About from "./components/About";
 import Services from "./components/Services";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import WhyShodo from "./components/WhyShodo";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <HeroTitle/>
       <IntroSection/>
       <About/>
+      <WhyShodo/>
       <Services/>
       <Contact/>
       <Footer/>

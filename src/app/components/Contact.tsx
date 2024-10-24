@@ -37,9 +37,9 @@ const contactLinks: ContactLink[] = [
 
 const Contact: React.FC = () => {
     return (
-        <Container component="section" maxWidth="lg" sx={{marginTop:"5rem"}}>
+        <Container component="section" maxWidth="lg" sx={{marginTop:"7rem"}}>
             <Typography variant="h3" textAlign="center" sx={{color:"secondary.main"}} id="contact"> CONTACTS</Typography>
-            <Typography variant="h2" textAlign="center"> Je serai ravie de vous rencontrer.</Typography>
+            <Typography variant="h2" textAlign="center"> Convaincu.e.s ?</Typography>
             <Typography variant="body1" textAlign="center"> N'hésitez pas à me contacter !</Typography>
             <Stack direction="row" spacing="2rem" marginTop="4rem" justifyContent="center">
                 {contactLinks.map((link)=>(
