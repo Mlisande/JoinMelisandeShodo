@@ -3,6 +3,7 @@ import HeroTitle from "./components/HeroTitle";
 import IntroSection from "./components/Intro";
 import About from "./components/About";
 import Services from "./components/Services";
+import Contact from "./components/Contact";
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <IntroSection/>
       <About/>
       <Services/>
+      <Contact/>
     </Container>
     // <div className={styles.page}>
     //   <main className={styles.main}>
