@@ -1,7 +1,12 @@
+'use client';
 import React from "react";
 import { Container, Grid2, Paper, List,ListItem, Typography, ListItemText} from "@mui/material";
+import { motion, useInView } from "framer-motion";
 
 const WhyShodo: React.FC = () => {
+    const ref = React.useRef(null);
+    const isInView = useInView(ref, { once: true });
+    
     const lists = [
         {
             text: "Parce que je souhaite un environnement de travail équitable, qui prône la transparence et le respect. ", 
@@ -35,10 +40,18 @@ const WhyShodo: React.FC = () => {
                     </Typography>
                     <List>
                         {lists.map((list, index) => (
+                            <motion.div
+                                ref={ref}
+                                key={index}
+                                initial={{ opacity: 0, y: 50 }}
+                                animate={{ opacity: isInView ? 1 : 0, y: isInView ? 0 : 50 }}
+                                transition={{ duration: 0.5, delay: index * 0.3 }}
+                                >
                             <ListItem key={index} sx={{ display: 'flex', marginBottom: "1.5rem"}}>
                                 <ListItemText disableTypography primary={<Typography variant="h2">{`${index+1}.`}</Typography>} sx={{ flex: "0 0 30px", marginRight:"3rem"}}/>
                                 <ListItemText primary={list.text} />
                             </ListItem>
+                            </motion.div>
                         ))}
                     </List>
                 </Grid2>

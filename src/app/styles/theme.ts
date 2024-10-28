@@ -10,7 +10,8 @@ const theme = createTheme({
             main :'#ee1b48' // rose/rouge
         },
         background : {
-            default:'#eeb31b', // jaune/orange
+            default:'#eeb31b', // jaune
+            paper : '#ee741b' // orange
         }
     },
     typography : {

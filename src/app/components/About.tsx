@@ -19,19 +19,40 @@ const About: React.FC = () => {
                 <Grid2 size={4}>
                     <Typography variant="h3" marginBottom="1rem"> COMPÉTENCES </Typography>
                     <Stack sx={{ width: '100%', color: 'grey.500' }} spacing={2}>
+                        <Box display="flex" justifyContent="space-between">
                         <Typography variant="h3">HTML</Typography>
+                        <Typography variant="h3">80 %</Typography>
+                        </Box>
                         <LinearProgress variant="determinate" value={70} color="secondary" />
+                        <Box display="flex" justifyContent="space-between">
                         <Typography variant="h3">JAVASCRIPT</Typography>
+                        <Typography variant="h3">60 %</Typography>
+                        </Box>
                         <LinearProgress variant="determinate" value={60} color="warning" sx={{'& .MuiLinearProgress-bar': { backgroundColor:'background.default'}}} />
+                        <Box display="flex" justifyContent="space-between">
                         <Typography variant="h3">REACT.JS</Typography>
-                        <LinearProgress variant="determinate" value={60} color="secondary" />
-                        <Typography variant="h3">CSS</Typography>
-                        <LinearProgress variant="determinate" value={70} color="warning" sx={{'& .MuiLinearProgress-bar': { backgroundColor:'background.default'}}} />
-                        <Typography variant="h3">SQL</Typography>
+                        <Typography variant="h3">50 %</Typography>
+                        </Box>
                         <LinearProgress variant="determinate" value={50} color="secondary" />
+                        <Box display="flex" justifyContent="space-between">
+                        <Typography variant="h3">CSS</Typography>
+                        <Typography variant="h3">80 %</Typography>
+                        </Box>
+                        <LinearProgress variant="determinate" value={70} color="warning" sx={{'& .MuiLinearProgress-bar': { backgroundColor:'background.default'}}} />
+                        <Box display="flex" justifyContent="space-between">
+                        <Typography variant="h3">SQL</Typography>
+                        <Typography variant="h3"> 40 %</Typography>
+                        </Box>
+                        <LinearProgress variant="determinate" value={40} color="secondary" />
+                        <Box display="flex" justifyContent="space-between">
                         <Typography variant="h3">POSTGRESQL</Typography>
-                        <LinearProgress variant="determinate" value={50} color="warning" sx={{'& .MuiLinearProgress-bar': { backgroundColor:'background.default'}}} />
+                        <Typography variant="h3">40 %</Typography>
+                        </Box>
+                        <LinearProgress variant="determinate" value={40} color="warning" sx={{'& .MuiLinearProgress-bar': { backgroundColor:'background.default'}}} />
+                        <Box display="flex" justifyContent="space-between">
                         <Typography variant="h3">JEST</Typography>
+                        <Typography variant="h3">30 %</Typography>
+                        </Box>
                         <LinearProgress variant="determinate" value={30} color="secondary"/> 
                     </Stack> 
                 </Grid2>
