@@ -20,10 +20,10 @@ const Header:React.FC = () => {
                         <Typography variant="h3" sx={{ marginBottom:'.1rem'}}>CODE WE CODE</Typography>
                     </Box>
                     <Stack direction="row" spacing="2rem" marginLeft="auto">
-                        <Button color="inherit" sx={{typography:"body1", textTransform:"none"}} component={Link} href="#about" > A propos </Button>
-                        <Button color="inherit" sx={{typography:"body1", textTransform:"none"}} component={Link} href="#whyshodo"> Pourquoi Shodo </Button>
-                        <Button color="inherit" sx={{typography:"body1", textTransform:"none"}} component={Link} href="#services"> Services </Button>
-                        <Button color="inherit" sx={{typography:"body1", textTransform:"none"}} component={Link} href="#contact"> Contacts </Button>
+                        <Button color="inherit" sx={{typography:"body1", textTransform:"none", ":hover":{ transition:"transform .3s color .3s", color:"primary.main", backgroundColor:"secondary.main"}}} component={Link} href="#about" > A propos </Button>
+                        <Button color="inherit" sx={{typography:"body1", textTransform:"none", ":hover":{ transition:"transform .3s color .3s", color:"primary.main", backgroundColor:"background.default"}}} component={Link} href="#whyshodo"> Pourquoi Shodo </Button>
+                        <Button color="inherit" sx={{typography:"body1", textTransform:"none", ":hover":{ transition:"transform .3s color .3s", color:"primary.main", backgroundColor:"background.paper"}}} component={Link} href="#services"> Services </Button>
+                        <Button color="inherit" sx={{typography:"body1", textTransform:"none", ":hover":{ transition:"transform .3s color .3s", color:"primary.main", backgroundColor:"secondary.main"}}} component={Link} href="#contact"> Contacts </Button>
                     </Stack>
                 </Toolbar>
             </AppBar>
