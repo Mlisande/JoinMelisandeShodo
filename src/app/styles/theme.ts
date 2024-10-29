@@ -15,7 +15,7 @@ const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: `"var(--font-bluu-next)', 'var(--font-inter-regular)"`,
+    fontFamily: `"var(--font-bluu-next)", "var(--font-inter-regular)"`,
     h1: {
       fontFamily: "var(--font-bluu-next), sans-serif",
       fontSize: "138px",
