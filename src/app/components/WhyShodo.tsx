@@ -1,6 +1,6 @@
 'use client';
 import React from "react";
-import { Container, Grid2, Paper, List,ListItem, Typography, ListItemText} from "@mui/material";
+import { Container, Grid2, List,ListItem, Typography, ListItemText} from "@mui/material";
 import { motion, useInView } from "framer-motion";
 
 const WhyShodo: React.FC = () => {
@@ -13,7 +13,7 @@ const WhyShodo: React.FC = () => {
           
         },
         {
-            text: "En tant que développeuse, j'aimerais être entourée de collègues avec qui je peux partager et apprendre. On m'a dit qu'ils étaient tous chez Shodo !", 
+            text: "En tant que développeuse, j'aimerais être entourée de collègues avec qui je peux partager et apprendre. Et on m'a dit que les meilleur.e.s développeur.e.s étaient chez Shodo !", 
             
         },
         {
@@ -30,7 +30,7 @@ const WhyShodo: React.FC = () => {
                 {/* Colonne gauche : mon text d'intro */}
                 <Grid2 size= {4} alignContent="center">
                     <Typography>
-                    Depuis que j'ai découvert Shodo, je n'ai cessé de penser à ce que cela représenterait pour moi de rejoindre une entreprise qui fait de la diversité une priorité et qui pousse ses collaborateurs à se surpasser.
+                    Depuis que j'ai découvert Shodo, je n'arrête pas de penser à ce que ça pourrait m'apporter de rejoindre une entreprise qui met la diversité en avant et qui pousse chacun·e à se dépasser.
                     </Typography>
                 </Grid2>
                 {/* Colonne droite : ma liste  */}
