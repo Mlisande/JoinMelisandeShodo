@@ -100,7 +100,7 @@ const Header: React.FC = () => {
               href="#services"
             >
               {" "}
-              Services{" "}
+              Mes compétences{" "}
             </Button>
             <Button
               color="inherit"
@@ -117,7 +117,7 @@ const Header: React.FC = () => {
               href="#contact"
             >
               {" "}
-              Contacts{" "}
+              Me contacter{" "}
             </Button>
           </Stack>
         </Toolbar>

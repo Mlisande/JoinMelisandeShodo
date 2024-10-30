@@ -23,7 +23,7 @@ const WhyShodo: React.FC = () => {
       text: "Parce que je souhaite un environnement de travail équitable, qui prône la transparence et le respect. ",
     },
     {
-      text: "En tant que développeuse, j'aimerais être entourée de collègues avec qui je peux partager et apprendre. Et on m'a dit que les meilleur.e.s développeur.e.s étaient chez Shodo !",
+      text: "En tant que développeuse, j'aimerais être entourée de collègues avec qui je peux partager et apprendre. Il parait que les meilleur.e.s développeur.e.s étaient chez Shodo !",
     },
     {
       text: "Je souhaite prendre part à la construction de cette nouvelle forme de salariat, à laquelle je crois profondément.",
@@ -43,7 +43,7 @@ const WhyShodo: React.FC = () => {
         C'est une sacrée entreprise !{" "}
       </Typography>
       <Typography variant="body1" textAlign="center">
-        I have a dream, et c'est très embauchée chez Shodo !{" "}
+        I have a dream, et c'est être embauchée chez Shodo !{" "}
       </Typography>
       <Grid2
         container
@@ -56,9 +56,9 @@ const WhyShodo: React.FC = () => {
         {/* Colonne gauche : mon text d'intro */}
         <Grid2 size={{ xs: 8, lg: 4 }} alignContent="center">
           <Typography>
-            Depuis que j'ai découvert Shodo, je n'arrête pas de penser à ce que
-            ça pourrait m'apporter de rejoindre une entreprise qui met la
-            diversité en avant et qui pousse chacun·e à se dépasser.
+            Depuis que j'ai découvert Shodo, je souahaite rejoindre cette
+            entreprise qui met la diversité en avant et qui pousse chacun·e à se
+            dépasser.
           </Typography>
         </Grid2>
         {/* Colonne droite : ma liste  */}

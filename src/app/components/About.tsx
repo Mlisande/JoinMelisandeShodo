@@ -43,18 +43,17 @@ const About: React.FC = () => {
             PROFIL{" "}
           </Typography>
           <Typography variant="body1">
-            Développeuse depuis janvier 2022, titulaire du Titre Professionnel
-            de Concepteur Développeur d'Applications, j'ai récemment terminé une
-            année en tant que développeuse full stack chez Palo IT, où j'ai
-            travaillé sur divers projets avec React.js, TypeScript, Python,
-            Docker et AWS. Passionnée par le web, j'interviens aussi bien en
-            front-end qu'en back-end, en utilisant des technologies comme HTML5,
-            CSS, JavaScript, Next.js, Node.js, et SQL pour la conception des
-            bases de données. Je conçois également des maquettes avec Figma et
-            Canva.
+            Développeuse depuis janvier 2022, je suis titulaire du Titre
+            Professionnel de Concepteur Développeur d'Applications. J'ai
+            récemment terminé une année en tant que développeuse full stack chez
+            Palo IT, où j'ai travaillé sur divers projets avec React.js,
+            TypeScript, Python, Docker et AWS. Passionnée par le web,
+            j'interviens aussi bien en front-end qu'en back-end, en utilisant
+            des technologies comme HTML5, CSS, JavaScript, Next.js, Node.js, et
+            SQL. Je conçois également des maquettes avec Figma et Canva.
           </Typography>
           <Typography variant="body1" marginTop="1rem">
-            Je cherche souhaite rejoindre Shodo en CDI Pour intégrer une équipe
+            Je cherche souhaite rejoindre Shodo en CDI pour intégrer une équipe
             dynamique et évoluer dans un environnement qui favorise le partage
             de connaissances.
           </Typography>

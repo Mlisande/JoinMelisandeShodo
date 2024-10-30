@@ -54,7 +54,7 @@ const Services: React.FC = () => {
         textAlign="center"
         sx={{ color: "secondary.main" }}
       >
-        SERVICES
+        MES COMPETENCES
       </Typography>
       <Typography variant="h2" textAlign="center" marginBottom="1rem">
         Comment puis-je vous aider ?{" "}
@@ -62,7 +62,7 @@ const Services: React.FC = () => {
       <Typography variant="body1" textAlign="center">
         {" "}
         Vous avez besoin d'une développeuse ambitieuse et déterminer pour
-        construire des applications robutes.{" "}
+        construire des applications robustes.{" "}
       </Typography>
       <Typography variant="body1" textAlign="center">
         Je serais ravie de vous aider !{" "}
