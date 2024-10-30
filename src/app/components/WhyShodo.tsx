@@ -47,12 +47,14 @@ const WhyShodo: React.FC = () => {
       </Typography>
       <Grid2
         container
-        justifyContent="space-evenly"
+        justifyContent={{ xs: "center", lg: "space-evenly" }}
+        alignContent={{ xs: "center" }}
         spacing={2}
         marginTop="4rem"
+        direction={{ xs: "column", lg: "row" }}
       >
         {/* Colonne gauche : mon text d'intro */}
-        <Grid2 size={4} alignContent="center">
+        <Grid2 size={{ xs: 8, lg: 4 }} alignContent="center">
           <Typography>
             Depuis que j'ai découvert Shodo, je n'arrête pas de penser à ce que
             ça pourrait m'apporter de rejoindre une entreprise qui met la
@@ -60,7 +62,7 @@ const WhyShodo: React.FC = () => {
           </Typography>
         </Grid2>
         {/* Colonne droite : ma liste  */}
-        <Grid2 size={5} spacing={2}>
+        <Grid2 size={{ xs: 8, lg: 5 }} spacing={2}>
           <Typography
             variant="h3"
             marginBottom="1rem"

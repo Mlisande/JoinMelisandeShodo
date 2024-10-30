@@ -28,11 +28,17 @@ const About: React.FC = () => {
       <Grid2
         container
         justifyContent="space-evenly"
+        alignContent={{ xs: "center" }}
         marginTop="4rem"
         spacing={2}
+        direction={{ xs: "column", lg: "row" }}
       >
-        <Grid2 size={5}>
-          <Typography variant="h3" marginBottom="1rem">
+        <Grid2 size={{ xs: 8, lg: 5 }}>
+          <Typography
+            variant="h3"
+            marginBottom="1rem"
+            textAlign={{ xs: "center", lg: "start" }}
+          >
             {" "}
             PROFIL{" "}
           </Typography>
@@ -53,8 +59,12 @@ const About: React.FC = () => {
             de connaissances.
           </Typography>
         </Grid2>
-        <Grid2 size={4}>
-          <Typography variant="h3" marginBottom="1rem">
+        <Grid2 size={{ xs: 8, lg: 4 }}>
+          <Typography
+            variant="h3"
+            marginBottom="1rem"
+            textAlign={{ xs: "center", lg: "start" }}
+          >
             {" "}
             COMPÉTENCES{" "}
           </Typography>

@@ -15,14 +15,40 @@ const Header: React.FC = () => {
           padding: " 20px 55px",
         }}
       >
-        <Toolbar>
-          <Image src={shodoLogo} alt="shodo logo" width={82} height={90} />
-          <Box component="section" sx={{ marginLeft: "26px" }}>
-            <Typography variant="h3">CRAFTING</Typography>
-            <Typography variant="h3">SUSTAINABLE</Typography>
-            <Typography variant="h3" sx={{ marginBottom: ".1rem" }}>
-              CODE WE CODE
-            </Typography>
+        <Toolbar
+          sx={{
+            flexDirection: { xs: "column", md: "row" },
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <Box
+            sx={{
+              display: "flex",
+              alignItems: "center",
+              gap: { xs: 2, md: 2 },
+              flexWrap: "wrap",
+              marginBottom: { xs: 2, md: 0 },
+            }}
+          >
+            <Image src={shodoLogo} alt="shodo logo" width={82} height={90} />
+            <Box
+              component="section"
+              sx={{
+                marginLeft: {
+                  xs: 0,
+                  md: "26px",
+                  textAlign: { xs: "center", md: "left" },
+                },
+                marginBottom: { xs: 2, md: 0 },
+              }}
+            >
+              <Typography variant="h3">CRAFTING</Typography>
+              <Typography variant="h3">SUSTAINABLE</Typography>
+              <Typography variant="h3" sx={{ marginBottom: ".1rem" }}>
+                CODE WE CODE
+              </Typography>
+            </Box>
           </Box>
           <Stack direction="row" spacing="2rem" marginLeft="auto">
             <Button
