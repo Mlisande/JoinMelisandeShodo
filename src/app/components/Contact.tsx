@@ -44,7 +44,7 @@ const Contact: React.FC = () => {
         id="contact"
       >
         {" "}
-        CONTACTS
+        ME CONTACTER
       </Typography>
       <Typography variant="h2" textAlign="center">
         {" "}
