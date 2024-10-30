@@ -54,7 +54,7 @@ const Services: React.FC = () => {
         textAlign="center"
         sx={{ color: "secondary.main" }}
       >
-        MES COMPETENCES
+        MES COMPÉTENCES
       </Typography>
       <Typography variant="h2" textAlign="center" marginBottom="1rem">
         Comment puis-je vous aider ?{" "}
