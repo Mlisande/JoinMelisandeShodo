@@ -19,7 +19,7 @@ const About: React.FC = () => {
         sx={{ color: "secondary.main" }}
       >
         {" "}
-        A PROPOS{" "}
+        À PROPOS{" "}
       </Typography>
       <Typography variant="h2" textAlign="center">
         {" "}
@@ -53,7 +53,7 @@ const About: React.FC = () => {
             SQL. Je conçois également des maquettes avec Figma et Canva.
           </Typography>
           <Typography variant="body1" marginTop="1rem">
-            Je cherche souhaite rejoindre Shodo en CDI pour intégrer une équipe
+            Je souhaite rejoindre Shodo en CDI pour intégrer une équipe
             dynamique et évoluer dans un environnement qui favorise le partage
             de connaissances.
           </Typography>

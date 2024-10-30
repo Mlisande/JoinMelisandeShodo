@@ -66,7 +66,7 @@ const Header: React.FC = () => {
               href="#about"
             >
               {" "}
-              A propos{" "}
+              À propos{" "}
             </Button>
             <Button
               color="inherit"
