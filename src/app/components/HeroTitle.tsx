@@ -8,17 +8,21 @@ const HeroTitle: React.FC = () => {
     <Container component="main" maxWidth="xl" sx={{ marginTop: "4rem" }}>
       <Grid2 container direction="column" alignItems="center" spacing={2}>
         <Grid2 size={12}>
-          <Typography variant="h1" marginLeft="5rem">
+          <Typography
+            variant="h1"
+            marginLeft={{ xs: 0, md: "5rem" }}
+            textAlign={{ xs: "center", md: "left" }}
+          >
             VOUS AVEZ{" "}
           </Typography>
         </Grid2>
         <Grid2>
           <Grid2
             container
-            direction="row"
+            direction={{ xs: "column", md: "row" }}
             alignItems="baseline"
             spacing={4}
-            marginLeft="5rem"
+            marginLeft={{ xs: 0, md: "5rem" }}
           >
             <Grid2>
               <Image
@@ -49,7 +53,11 @@ const HeroTitle: React.FC = () => {
           </Grid2>
         </Grid2>
         <Grid2>
-          <Typography variant="body1" marginLeft="-10rem">
+          <Typography
+            variant="body1"
+            marginLeft={{ xs: 0, md: "-10rem" }}
+            textAlign={{ xs: "center", md: "left" }}
+          >
             {" "}
             ... de faire le bon choix, donc recrutez-moi !
           </Typography>
