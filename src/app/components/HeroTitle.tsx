@@ -30,6 +30,7 @@ const HeroTitle: React.FC = () => {
                 alt="Morpheus Pills"
                 width={304}
                 height={180}
+                unoptimized
               />
             </Grid2>
             <Grid2 sx={{ alignSelf: "flex-start" }}>

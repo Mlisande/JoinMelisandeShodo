@@ -28,7 +28,7 @@ const ButtonContact: React.FC = () => {
         color: "#fff",
         textTransform: "none",
         transition: "transform .3s",
-        transform: isHovered ? "scale(1.1)" : "scale(1)", // Pour le survo
+        transform: isHovered ? "scale(1.1)" : "scale(1)", // Pour le survol
       }}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
@@ -53,7 +53,6 @@ const ButtonContact: React.FC = () => {
           }}
         />
       </Box>
-
       <Typography
         variant="body2"
         paddingRight={isHovered ? "3rem" : "1rem"}
