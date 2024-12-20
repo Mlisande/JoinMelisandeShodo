@@ -10,6 +10,7 @@ const ButtonContact: React.FC = () => {
   const [isHovered, setIsHovered] = useState(false);
   return (
     <Button
+      role="button"
       variant="contained"
       color="secondary"
       href="mailto:melisande.malonga@gmail.com"
